@@ -1,0 +1,6 @@
+-> hoisting is the behavior of javascript, how it handle the function or variable memory before it comes to 
+   execution phase in execution context.
+-> It happens in memory phase of execution context.
+
+-> In hoisting,Let and var is in Temporal Dead Zone (TDZ) - the time period between the 
+   declaration and initialization of the variable
