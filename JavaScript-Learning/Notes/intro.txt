@@ -1,0 +1,6 @@
+-> JavaScript works on execution context(EC) manner - consists of two parts - memory and code execution
+-> Entire code flow - GEC (Global Execution Context)
+-> js manage the EC by using Call Stack
+-> the GEC is the first element of the call stack
+-> other EC are  popped after execution
+
