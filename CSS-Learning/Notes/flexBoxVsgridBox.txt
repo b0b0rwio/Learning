@@ -1,0 +1,20 @@
+//Flexbox -> single-dimension layout model(either row or column)
+//GridBox -> Two-dimension layour model(both row and column)
+
+/** Flexbox Froggy **/
+-> justify-content -> Aligns along the Main Axis (X-axis)
+-> align-items(Direction) -> Aligns along the Cross Axis (Y-axis)
+-> align-self (only for the child) -> Overrides align-items for that specific child only
+-> flex-wrap -> Aligns/Wraps child either single line or with additional line
+-> flex-flow -> Combition of flex-direction and flex-wrap
+-> align-content -> determines the spacing between lines, When there is only one line, 
+                    align-content has no effect.
+
+/** Grid Garden **/
+-> grid-column-start -> tells the start column of the grid elements
+-> grid-column-end -> Viceversa of grid-column-start
+-> grid-column - > combination of grid-column-start and grid-column-end
+
+-> grid-row similar as grid-column
+
+-> grid-area -> accepts both grid-row and grid-column (eg.e grid-area: 1 / 1 / 3 / 6;)(start/start/end/end)

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body>h1{
+    font-size: medium;
+    border-left:10px solid rgb(179, 255, 0) ;
+    background-color: red;
+    align-content: space-around;
+}
+
+#d1{
+    width: 100%;
+    height: 50px;
+    border-bottom:10px solid red ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.d2>p,h1{
+        border: 5px solid rgb(0, 119, 255);
+}
+
+.d3{
+    width: 100%;
+    height: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    color: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(14, 14, 13);
+}

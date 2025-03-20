@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+body>h1{
+    color:rgb(0, 0, 0);
+}
+
+#d1{
+    height:50px;
+    width: 100%;
+    background-color: green;
+}
+.d2{
+    height:50px;
+    width: 100%;
+    background-color: yellow;
+}
+.d2 p,h1{
+    color: chartreuse;
+}
