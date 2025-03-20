@@ -1,0 +1,3 @@
+-> functions -> allow to reuse the code
+-> unlike regular functions ,"this" in the arrow functions binds with surrounding
+-> CallBack function is commonly used in fetching data from api
