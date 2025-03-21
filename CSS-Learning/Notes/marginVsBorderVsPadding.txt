@@ -1,0 +1,14 @@
+//Margin: space outside the border 
+-> By default, it is 8px
+-> Used to create space between elements
+-> margin(top right bottom left)-(clockWise values arrangements)
+
+//Border: a line that wraps around the padding and content
+-> By default, none
+-> To create the edges of the element
+
+//Padding : space inside the border, around the content
+-> By default, none
+-> To add space between the content and the border
+
+//**Float: helps the wraps element around images**//

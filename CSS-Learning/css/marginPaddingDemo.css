@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    border: 2px solid;
+}
+.d1{
+    /* border: 5px solid; */
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    margin: 10px 0px 20px 20px; /*margin(top right bottom left)*/
+    padding: 20px;
+}
+.d2{
+    /* border: 5px solid black; */
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: skyblue;
+    padding: 20px;
+}
+.d3{
+    /* border: 5px solid; */
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: yellowgreen;
+    margin: 0px auto 20px auto;
+    padding: 20px;
+}
+.d4{
+    /* border: 5px solid black; */
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: skyblue;
+    padding: 20px;
+    margin: 50px;
+}

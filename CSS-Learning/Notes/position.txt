@@ -1,0 +1,5 @@
+//Position
+->Relative - elements moves relative to neighbors
+->Absolute - elements moves along with parent or else window if no parent is present
+-> fixed - fixed in the same Position in window (screen)
+-> sticky -> fixed to the Position upon scrolling

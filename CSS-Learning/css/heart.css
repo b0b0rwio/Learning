@@ -5,11 +5,12 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: rgb(51, 49, 49);
 }
 .d1{
     height: 450px;
     width: 450px;
-    background-color: aqua;
+    /* background-color: rgb(255, 255, 251); */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -21,7 +22,7 @@ body{
     background-color: rgb(255, 0, 0);
     /* border:2px solid black; */
     border-radius: 50px 50px 1px 0px;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateX(-.2px);
 }
 .c2{
     height: 45px;
@@ -30,14 +31,20 @@ body{
     /* border:2px solid black; */
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateX(1.3px);
 }
 .c3{
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35.5px;
+    background-color: rgb(255, 0, 0);
+    transform: rotate(45deg) translateX(-22.5px) translateY(65.5px);
+    top:10px;
+}
+.b1{
+    height: 20px;
+    width: 20px;
     background-color: rgb(255, 0, 0);
     /* border:2px solid black; */
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    transform: translateX(-68px) translateY(30px);
+    border-radius: 50px 50px 50px 50px;
+    transform: translateX(-89px) translateY(68px);
 }
