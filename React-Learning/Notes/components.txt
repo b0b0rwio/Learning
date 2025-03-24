@@ -1,0 +1,6 @@
+//React js - a library, not a framework
+->React is used to create single page application
+
+//Components
+->Resuable Code
+->self-Contained
