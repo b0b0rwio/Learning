@@ -1,0 +1,32 @@
+{
+    "places":[
+    {
+         "id": 1,
+         "name":"Conwy Castle",
+         "country":"UK",
+         "description":" A magnificent medieval fortress built by Edward I, showcasing impressive architecture and history.",
+         "image":"http://localhost:3000/assets/conway.jpg"
+    },
+    {
+         "id":2,
+         "name":"Peel Castle",
+         "description":" Peel Castle, located on St Patrick's Isle, Isle of Man, is a historic medieval fortress with Viking origins and stunning coastal views.",
+         "country":"Norway",
+         "image":"http://localhost:3000/assets/peel.jpg"
+     },
+     {
+         "id":3,
+         "name":"Wartburg",
+         "country":"Germany",
+         "description":" Wartburg Castle is a historic, medieval fortress with rich cultural significance.",
+         "image":"http://localhost:3000/assets/wartburg.jpg"
+     },
+     {
+         "id":4,
+         "name":"Rocca a Mare",
+         "country":"Greece",
+         "description":" Rocca a Mare is a Venetian coastal fortress in Heraklion, Crete, built in the 16th century, featuring sturdy stone walls, historic cannons, and breathtaking sea views.",
+         "image":"http://localhost:3000/assets/rocca.jpg"
+     }
+   ]
+}

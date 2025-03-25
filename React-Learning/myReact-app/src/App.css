@@ -3,10 +3,10 @@ body{
 }
 
 .card1{
-  background-color: skyblue;
+  background-color: #1E201E;
   max-width: 300px;
   padding:5px;
-  border: 1px solid;
+  border: 1px solid whitesmoke;
   font-family: "Bona Nova SC";
   align-items: center;
   justify-content: center;
@@ -14,13 +14,17 @@ body{
   flex-direction: column;
   text-align: center;
   margin:20px auto 50px auto;
+  border-radius: 70px;
+  color: whitesmoke;
 }
 .card1 img{
   width: 280px;
+  border-radius: inherit;
+  overflow:auto;
 }
 
-.add,.remove{
-  background-color: aqua;
+.remove,.liked{
+  background-color:whitesmoke;
   position: relative;
   font-family: "Bona Nova SC";
   font-weight: bold;
@@ -29,6 +33,6 @@ body{
   top: 0;
 }
 
-.add:hover, .remove:hover{
-  background-color: rgb(20, 212, 212);
+.remove:hover,.liked:hover{
+  background-color: rgb(131, 131, 131);
 }

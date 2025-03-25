@@ -4,3 +4,5 @@
 //Components
 ->Resuable Code
 ->self-Contained
+
+// json server command : npx json-server --watch data/placeData.json --port 3000 --static ./data
