@@ -1,6 +1,6 @@
 import useFetch from '../useFetch';
 import Place from './Place'
-import { useState,useEffect } from 'react';
+
 
 function PlaceList(){
     const [PlList,setPlList,error]=useFetch('http://localhost:3000/places');
