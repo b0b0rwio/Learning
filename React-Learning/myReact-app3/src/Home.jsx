@@ -9,7 +9,6 @@ function Home(){
             const controller=new AbortController();
             const signal=controller.signal;
 
-            setTimeout( ()=>{
                 fetch('http://localhost:3000/posts',{signal})
                 .then((response)=>response.json())
                 .then((data)=>{
@@ -17,7 +16,6 @@ function Home(){
                     setPosts(data)
                 })
                 .catch(e=>console.log(e))
-            },1500);
 
             //CleanUp function
             return ()=>{
