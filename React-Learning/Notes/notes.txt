@@ -1,0 +1,17 @@
+//React js - a library, not a framework
+->React is used to create single page application
+
+//Components
+->Resuable Code
+->self-Contained
+
+// json server command : npx json-server --watch data/placeData.json --port 3000 --static ./data
+
+//useContext()- used to avoid props drilling.[to create global context - we have to use createContext 
+                                              and export it and also have to wrap the it's descendant component ]
+
+//useRef()
+-> this hook, allow as to change the value of state variable without re-rendering and 
+   also to referring the html element.
+-> Whenever we don't want to re-render the component, but have to update the state variable, we have to use
+   this hook.

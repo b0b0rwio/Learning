@@ -53,7 +53,7 @@ function Login(){
             </div>
         </div>
 
-        <Counter/>
+        {/* <Counter/> */}
 
         <form className="my-5" style={{color:"whitesmoke",width:"50%", margin:"auto"}}>
             <div className="mb-3">

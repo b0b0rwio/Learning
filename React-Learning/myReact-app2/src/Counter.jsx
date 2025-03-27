@@ -1,24 +1,20 @@
-import { useState,useContext, useEffect,useRef } from "react";
+import { useState,useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import {dataContext} from "./Home";
 
 function Counter(){
     const [count,setCount]=useState(0);
     
-    let refCount=useRef(0);
-
     const data=useContext(dataContext);
    
     function addOne(){
-        // //Updater Function
-        // setCount(count=>count+1);
-
-        refCount.current++;
+        //Updater Function
+        setCount(count=>count+1);
+        setCount(count=>count+1);
     }
 
     useEffect(()=>{
         console.log(`count: ${count}`)
-        console.log(`refCount.current:${refCount.current}`);
     })
 
 return(
@@ -42,8 +38,8 @@ return(
 
     <div className="d-flex align-items-center justify-content-center flex-column  fs-5">
     <p style={{color:"whitesmoke"}}>{`Count: ${count}`}</p>
-    <button onClick={addOne} className="btn btn-primary">Add-1</button>
-    <button onClick={()=>(setCount(refCount.current))} className="btn btn-danger">update</button>
+    <button onClick={addOne} className="btn btn-primary">Add-2</button>
+   
     </div>
     </>
 )

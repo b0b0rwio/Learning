@@ -4,7 +4,7 @@ import Home from './Home'
 import NotFound from './notFound'
 import {createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Counter from './Counter'
-
+import Post from './post'
 
 const router=createBrowserRouter([
   {
@@ -22,6 +22,11 @@ const router=createBrowserRouter([
     element:<Counter/>,
     errorElement:<NotFound/>
   },
+  {
+    path:'/post/:id',
+    element:<Post/>,
+    errorElement:<NotFound/>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
