@@ -1,0 +1,40 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "The Future of AI",
+            "content": "Artificial Intelligence is transforming industries with automation and efficiency."
+        },
+        {
+            "id": 2,
+            "title": "Benefits of Cloud Computing",
+            "content": "Cloud computing offers scalability, cost savings, and remote access to resources."
+        },
+        {
+            "id": 3,
+            "title": "Healthy Eating Habits",
+            "content": "A balanced diet with fruits, vegetables, and proteins helps maintain a healthy lifestyle."
+        },
+        {
+            "id": 4,
+            "title": "Importance of Cybersecurity",
+            "content": "Protecting sensitive data from cyber threats is crucial in the digital age."
+        },
+        {
+            "id": 5,
+            "title": "Space Exploration Advances",
+            "content": "New technologies enable deep space missions and the search for extraterrestrial life."
+        },
+        {
+            "id": 6,
+            "title": "The Rise of Remote Work",
+            "content": "Remote work has changed the way businesses operate, increasing flexibility and productivity."
+        },
+        {
+            "id": 7,
+            "title": "Introduction to Machine Learning",
+            "content": "Machine learning allows computers to learn from data and improve decision-making."
+        }
+    ]
+    
+}
