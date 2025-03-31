@@ -14,7 +14,7 @@ function Home(){ //Provider component
         ()=>{
             const controller=new AbortController();
             const signal=controller.signal;
-
+            
                 fetch('http://localhost:3000/posts',{signal})
                 .then((response)=>response.json())
                 .then((data)=>{
@@ -28,9 +28,8 @@ function Home(){ //Provider component
                 console.log("unMounted")
                 controller.abort();
             }
-        }
-
-    ,[]);
+        },[]
+    );
     
     
     return(
