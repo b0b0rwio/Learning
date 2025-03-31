@@ -6,7 +6,6 @@ import {createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Counter from './Counter'
 import ReducerHook from './reducerHook'
 
-
 const router=createBrowserRouter([
   {
     path:'/',
@@ -27,7 +26,7 @@ const router=createBrowserRouter([
     path:'/ReducerHook',
     element:<ReducerHook/>,
     errorElement:<NotFound/>
-  }
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(
