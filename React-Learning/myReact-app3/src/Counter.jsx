@@ -1,6 +1,6 @@
 import { useState,useContext, useEffect,useRef } from "react";
 import { Link } from "react-router-dom";
-import {dataContext} from "./Home";
+import {dataContext} from "./main";
 
 function Counter(){
     const [count,setCount]=useState(0);

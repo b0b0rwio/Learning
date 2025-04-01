@@ -5,6 +5,8 @@ import NotFound from './notFound'
 import {createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Counter from './Counter'
 import ReducerHook from './reducerHook'
+import {createContext} from 'react'
+export const dataContext=createContext();
 
 const router=createBrowserRouter([
   {
@@ -29,8 +31,14 @@ const router=createBrowserRouter([
   },
 ]);
 
+const data="dataData";
+
 createRoot(document.getElementById('root')).render(
   // <StrictMode>
-    <RouterProvider router={router}/>
+
+    <dataContext.Provider value={data}>
+          <RouterProvider router={router}/>
+    </dataContext.Provider>
+
   // </StrictMode>,
 )

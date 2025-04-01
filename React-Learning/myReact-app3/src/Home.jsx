@@ -1,13 +1,12 @@
 import { useState,useEffect,createContext } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Login from "./login";
 
-export const dataContext=createContext();
 
 function Home(){ //Provider component
     const [posts,setPosts]=useState(null);
     
-    const data="dataData";
+    // const data="dataData";
 
     useEffect(
         ()=>{
@@ -42,19 +41,17 @@ function Home(){ //Provider component
 
         <div className="container">
 
-            {/* <div className="d-flex justify-content-end mb-1">
+            <div className="d-flex justify-content-end mb-1">
                 <Link to="/login" className="btn btn-primary">Login</Link>
             </div>
 
             <div className="d-flex justify-content-end">
                 <Link to="/Counter" className="btn btn-primary">Counter</Link>
-            </div> */}
+            </div>
 
-            <dataContext.Provider value={data}>
-                <Login/> {/* value send as props to login - to avoid this useContext is used*/}
-            </dataContext.Provider>
-
-            <div className="row justify-content-center m-3 gap-4">
+            <Login/>
+            
+            {/* <div className="row justify-content-center m-3 gap-4">
                 {posts&&posts.map(
                         (post)=>{return(
                         <div key={post.id}className="card mb-3" style={{width: "18rem"}}>
@@ -66,7 +63,7 @@ function Home(){ //Provider component
                     )}
                     )
                 }
-            </div>
+            </div> */}
 
         </div>
         </>
