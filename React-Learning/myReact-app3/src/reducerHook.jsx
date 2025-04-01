@@ -14,6 +14,7 @@ const ReducerHook = () => {
     }
     //const[count,setCount]=useState(0);
     const [state,dispatch]=useReducer(reducerFunc,{num:0});
+
     console.log(state)
     function increment(){
         dispatch({type:actions.INCREMENT})
