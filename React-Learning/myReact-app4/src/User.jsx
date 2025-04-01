@@ -5,7 +5,7 @@ import { deleteUser } from './userSlice';
 const User = () => {
   
   const users=useSelector((state)=>state.userInfo.users);
-
+  console.log(users)
   const dispath=useDispatch();
   const deleteUserInfo=(index)=>{
       dispath(deleteUser(index))
