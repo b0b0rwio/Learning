@@ -1,3 +1,10 @@
+*{
+    font-family: "Bona Nova SC";
+}
 .span1{
     color: rgb(0, 183, 255);
+    font-family: "Bona Nova SC";
+}
+.p1{
+    color: goldenrod;
 }
